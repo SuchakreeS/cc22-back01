@@ -1,0 +1,16 @@
+@BASE_URL_AUTH = http://localhost:8899/api/auth
+@BASE_URL = http://localhost:8899/
+
+GET {{BASE_URL_AUTH}}
+
+###
+GET {{BASE_URL}}/api/post
+
+###
+POST {{BASE_URL_AUTH}}/reg
+
+###
+POST {{BASE_URL_AUTH}}/login
+
+###
+GET {{BASE_URL_AUTH}}/me
